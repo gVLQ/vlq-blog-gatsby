@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Vlq's Blog`,
+    author: `Gabriel Vlaicu`,
+    description: `Just a place to showcase some of my work.`,
+    siteUrl: `https://vlq-blog.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      github: `gVLQ`,
     },
   },
   plugins: [
@@ -60,10 +60,10 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#121212`,
+        theme_color: `#333`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/vlq-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
